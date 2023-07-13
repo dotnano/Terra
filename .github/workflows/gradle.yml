@@ -20,4 +20,4 @@ jobs:
         java-version: '17'
         distribution: 'temurin'
     - uses: gradle/gradle-build-action@v2
-    - run: ./gradlew :platforms:fabric:build
+    - run: ./gradlew clean :platforms:fabric:build
